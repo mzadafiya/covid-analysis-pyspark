@@ -1,0 +1,83 @@
+2022-08-17 18:51:53,177 - Data Pipeline Flow - INFO - Starting tasks run...
+2022-08-17 18:51:53,178 - Data Extract - INFO - Starting task run...
+2022-08-17 18:51:53,178 - Data Extract - INFO - Reading config parameters x_rapid_api_key, countries, api_host, api_url and src_file
+2022-08-17 18:51:54,412 - Data Extract - INFO - Retrieve latest covid data: Started
+2022-08-17 18:51:54,413 - Data Extract - INFO - Retrieve latest covid data: Making requests for given countries
+2022-08-17 18:51:54,413 - Data Extract - INFO - Request for Antigua and Barbuda: Fetching started
+2022-08-17 18:51:56,108 - Data Extract - INFO - Request for Antigua and Barbuda: Request successful
+2022-08-17 18:51:56,108 - Data Extract - INFO - Request for Albania: Fetching started
+2022-08-17 18:51:57,528 - Data Extract - INFO - Request for Albania: Request successful
+2022-08-17 18:51:57,529 - Data Extract - INFO - Request for Armenia: Fetching started
+2022-08-17 18:51:58,673 - Data Extract - INFO - Request for Armenia: Request successful
+2022-08-17 18:51:58,673 - Data Extract - INFO - Request for Angola: Fetching started
+2022-08-17 18:51:59,995 - Data Extract - INFO - Request for Angola: Request successful
+2022-08-17 18:51:59,995 - Data Extract - INFO - Request for Argentina: Fetching started
+2022-08-17 18:52:01,055 - Data Extract - INFO - Request for Argentina: Request successful
+2022-08-17 18:52:01,055 - Data Extract - INFO - Request for Austria: Fetching started
+2022-08-17 18:52:02,132 - Data Extract - INFO - Request for Austria: Request successful
+2022-08-17 18:52:02,132 - Data Extract - INFO - Request for Australia: Fetching started
+2022-08-17 18:52:03,291 - Data Extract - INFO - Request for Australia: Request successful
+2022-08-17 18:52:03,291 - Data Extract - INFO - Request for Azerbaijan: Fetching started
+2022-08-17 18:52:04,347 - Data Extract - INFO - Request for Azerbaijan: Request successful
+2022-08-17 18:52:04,348 - Data Extract - INFO - Request for Bosnia and Herzegovina: Fetching started
+2022-08-17 18:52:05,462 - Data Extract - INFO - Request for Bosnia and Herzegovina: Request successful
+2022-08-17 18:52:05,463 - Data Extract - INFO - Request for Barbados: Fetching started
+2022-08-17 18:52:06,525 - Data Extract - INFO - Request for Barbados: Request successful
+2022-08-17 18:52:06,526 - Data Extract - INFO - Request for Bangladesh: Fetching started
+2022-08-17 18:52:07,713 - Data Extract - INFO - Request for Bangladesh: Request successful
+2022-08-17 18:52:07,714 - Data Extract - INFO - Request for Belgium: Fetching started
+2022-08-17 18:52:09,143 - Data Extract - INFO - Request for Belgium: Request successful
+2022-08-17 18:52:09,143 - Data Extract - INFO - Request for Burkina Faso: Fetching started
+2022-08-17 18:52:10,563 - Data Extract - INFO - Request for Burkina Faso: Request successful
+2022-08-17 18:52:10,563 - Data Extract - INFO - Request for Bulgaria: Fetching started
+2022-08-17 18:52:11,687 - Data Extract - INFO - Request for Bulgaria: Request successful
+2022-08-17 18:52:11,687 - Data Extract - INFO - Request for Bahrain: Fetching started
+2022-08-17 18:52:12,908 - Data Extract - INFO - Request for Bahrain: Request successful
+2022-08-17 18:52:12,909 - Data Extract - INFO - Request for Burundi: Fetching started
+2022-08-17 18:52:14,252 - Data Extract - INFO - Request for Burundi: Request successful
+2022-08-17 18:52:14,252 - Data Extract - INFO - Request for Benin: Fetching started
+2022-08-17 18:52:15,516 - Data Extract - INFO - Request for Benin: Request successful
+2022-08-17 18:52:15,517 - Data Extract - INFO - Request for Bolivia: Fetching started
+2022-08-17 18:52:16,817 - Data Extract - INFO - Request for Bolivia: Request successful
+2022-08-17 18:52:16,817 - Data Extract - INFO - Request for Brazil: Fetching started
+2022-08-17 18:52:18,326 - Data Extract - INFO - Request for Brazil: Request successful
+2022-08-17 18:52:18,327 - Data Extract - INFO - Request for Bahamas: Fetching started
+2022-08-17 18:52:19,785 - Data Extract - INFO - Request for Bahamas: Request successful
+2022-08-17 18:52:19,786 - Data Extract - INFO - Retrieve latest covid data: Completed
+2022-08-17 18:52:19,788 - Data Extract - INFO - Creating panda dataframe from collected data
+2022-08-17 18:52:19,804 - Data Extract - INFO - Creating or overwriting file from panda dataframe
+2022-08-17 18:52:19,809 - Data Extract - INFO - Collect data to csv file is successful
+2022-08-17 18:52:19,809 - Data Extract - INFO - Task run successful...
+2022-08-17 18:52:19,813 - Data Transform - INFO - Starting task run...
+2022-08-17 18:52:19,813 - Data Transform - INFO - Reading config parameters src_file name
+2022-08-17 18:52:30,488 - Data Transform - INFO - Covid Impact: Creating new dataframe
+2022-08-17 18:52:31,546 - Data Transform - INFO - Covid Impact: Upload result to csv file is successful
+2022-08-17 18:52:31,546 - Data Transform - INFO - Covid Impact: Upload result to csv file is successful
+2022-08-17 18:52:31,546 - Data Transform - INFO - Confirmed cases: Creating new dataframe
+2022-08-17 18:52:31,977 - Data Transform - INFO - Confirmed cases: Upload result to csv file is successful
+2022-08-17 18:52:31,978 - Data Transform - INFO - Confirmed cases: Upload result to csv file is successful
+2022-08-17 18:52:31,978 - Data Transform - INFO - Covid Efficiency(recovered/confirmed): Creating new dataframe
+2022-08-17 18:52:32,668 - Data Transform - INFO - Covid Efficiency(recovered/confirmed): Upload result to csv file is successful
+2022-08-17 18:52:32,668 - Data Transform - INFO - Covid Efficiency(recovered/confirmed): Upload result to csv file is successful
+2022-08-17 18:52:32,668 - Data Transform - INFO - Covid Suffering(active): Creating new dataframe
+2022-08-17 18:52:33,296 - Data Transform - INFO - Covid Suffering(active): Upload result to csv file is successful
+2022-08-17 18:52:33,298 - Data Transform - INFO - Covid Suffering(active): Upload result to csv file is successful
+2022-08-17 18:52:33,298 - Data Transform - INFO - Total Covid Cases: Creating new dataframe
+2022-08-17 18:52:33,573 - Data Transform - INFO - Total Covid Cases: Upload result to csv file is successful
+2022-08-17 18:52:33,575 - Data Load - INFO - Starting task run...
+2022-08-17 18:52:33,575 - Data Load - INFO - Reading config parameters load_file name
+2022-08-17 18:52:33,578 - Data Load - INFO - Combine results: Starting
+2022-08-17 18:52:33,578 - Data Load - INFO - Combine results: Reading transform_efficiency_lowest_res.csv file
+2022-08-17 18:52:33,580 - Data Load - INFO - Combine results: Reading transform_impact_lowest_res.csv file
+2022-08-17 18:52:33,580 - Data Load - INFO - Combine results: Reading transform_confirmed_highest_res.csv file
+2022-08-17 18:52:33,581 - Data Load - INFO - Combine results: Reading transform_suffering_lowest_res.csv file
+2022-08-17 18:52:33,582 - Data Load - INFO - Combine results: Reading transform_total_res.csv file
+2022-08-17 18:52:33,584 - Data Load - INFO - Combine results: Reading transform_impact_highest_res.csv file
+2022-08-17 18:52:33,585 - Data Load - INFO - Combine results: Reading transform_confirmed_lowest_res.csv file
+2022-08-17 18:52:33,586 - Data Load - INFO - Combine results: Reading transform_efficiency_highest_res.csv file
+2022-08-17 18:52:33,588 - Data Load - INFO - Combine results: Reading transform_suffering_highest_res.csv file
+2022-08-17 18:52:33,588 - Data Load - INFO - Combine results: Completed
+2022-08-17 18:52:33,590 - Data Load - INFO - Creating panda dataframe from collected response
+2022-08-17 18:52:33,593 - Data Load - INFO - Creating or overwriting file from panda dataframe
+2022-08-17 18:52:33,593 - Data Load - INFO - Combine all results to file is successful
+2022-08-17 18:52:33,593 - Data Pipeline Flow - INFO - Tasks successfully completed...

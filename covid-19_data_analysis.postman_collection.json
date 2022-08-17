@@ -1,0 +1,208 @@
+{
+	"info": {
+		"_postman_id": "a95770f4-43f9-4018-bffc-1e1f48dd7e56",
+		"name": "Covid-19 Data Analysis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20874946"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/latest-covid-data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/latest-covid-data",
+					"protocol": "http",
+					"host": [
+						"127.0.0.1"
+					],
+					"port": "5000",
+					"path": [
+						"latest-covid-data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/covid-impact/highest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/covid-impact/highest",
+					"protocol": "http",
+					"host": [
+						"127.0.0.1"
+					],
+					"port": "5000",
+					"path": [
+						"covid-impact",
+						"highest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/covid-impact/lowest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/covid-impact/lowest",
+					"protocol": "http",
+					"host": [
+						"127.0.0.1"
+					],
+					"port": "5000",
+					"path": [
+						"covid-impact",
+						"lowest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/covid-efficiency/highest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/covid-efficiency/highest",
+					"protocol": "http",
+					"host": [
+						"127.0.0.1"
+					],
+					"port": "5000",
+					"path": [
+						"covid-efficiency",
+						"highest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/covid-efficiency/lowest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/covid-efficiency/lowest",
+					"protocol": "http",
+					"host": [
+						"127.0.0.1"
+					],
+					"port": "5000",
+					"path": [
+						"covid-efficiency",
+						"lowest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/confirmed-cases/highest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/confirmed-cases/highest",
+					"protocol": "http",
+					"host": [
+						"127.0.0.1"
+					],
+					"port": "5000",
+					"path": [
+						"confirmed-cases",
+						"highest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/confirmed-cases/lowest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/confirmed-cases/lowest",
+					"protocol": "http",
+					"host": [
+						"127.0.0.1"
+					],
+					"port": "5000",
+					"path": [
+						"confirmed-cases",
+						"lowest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/covid-suffering/highest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/covid-suffering/highest",
+					"protocol": "http",
+					"host": [
+						"127.0.0.1"
+					],
+					"port": "5000",
+					"path": [
+						"covid-suffering",
+						"highest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/covid-suffering/lowest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/covid-suffering/lowest",
+					"protocol": "http",
+					"host": [
+						"127.0.0.1"
+					],
+					"port": "5000",
+					"path": [
+						"covid-suffering",
+						"lowest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/total-cases",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/total-cases",
+					"protocol": "http",
+					"host": [
+						"127.0.0.1"
+					],
+					"port": "5000",
+					"path": [
+						"total-cases"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
