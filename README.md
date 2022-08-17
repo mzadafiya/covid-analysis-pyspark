@@ -45,6 +45,4 @@ git checkout assignment
 
 pip3 install -r requirements.txt
 
-nohup python3 covid-analysis.py &
-
-python3 -m notebook
+nohup python3 src/rest_api/api.py & python3 -m src/flow.py

@@ -1,8 +1,9 @@
 {
 	"info": {
-		"_postman_id": "186d3716-e8f6-4cc1-a650-4a375b307df9",
+		"_postman_id": "a95770f4-43f9-4018-bffc-1e1f48dd7e56",
 		"name": "Covid-19 Data Analysis",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20874946"
 	},
 	"item": [
 		{
@@ -25,76 +26,160 @@
 			"response": []
 		},
 		{
-			"name": "http://127.0.0.1:5000/most-affected-country",
+			"name": "http://127.0.0.1:5000/covid-impact/highest",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:5000/most-affected-country",
+					"raw": "http://127.0.0.1:5000/covid-impact/highest",
 					"protocol": "http",
 					"host": [
 						"127.0.0.1"
 					],
 					"port": "5000",
 					"path": [
-						"most-affected-country"
+						"covid-impact",
+						"highest"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "http://127.0.0.1:5000/least-affected-country",
+			"name": "http://127.0.0.1:5000/covid-impact/lowest",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:5000/least-affected-country",
+					"raw": "http://127.0.0.1:5000/covid-impact/lowest",
 					"protocol": "http",
 					"host": [
 						"127.0.0.1"
 					],
 					"port": "5000",
 					"path": [
-						"least-affected-country"
+						"covid-impact",
+						"lowest"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "http://127.0.0.1:5000/highest-cases",
+			"name": "http://127.0.0.1:5000/covid-efficiency/highest",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:5000/highest-cases",
+					"raw": "http://127.0.0.1:5000/covid-efficiency/highest",
 					"protocol": "http",
 					"host": [
 						"127.0.0.1"
 					],
 					"port": "5000",
 					"path": [
-						"highest-cases"
+						"covid-efficiency",
+						"highest"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "http://127.0.0.1:5000/lowest-cases",
+			"name": "http://127.0.0.1:5000/covid-efficiency/lowest",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:5000/lowest-cases",
+					"raw": "http://127.0.0.1:5000/covid-efficiency/lowest",
 					"protocol": "http",
 					"host": [
 						"127.0.0.1"
 					],
 					"port": "5000",
 					"path": [
-						"lowest-cases"
+						"covid-efficiency",
+						"lowest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/confirmed-cases/highest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/confirmed-cases/highest",
+					"protocol": "http",
+					"host": [
+						"127.0.0.1"
+					],
+					"port": "5000",
+					"path": [
+						"confirmed-cases",
+						"highest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/confirmed-cases/lowest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/confirmed-cases/lowest",
+					"protocol": "http",
+					"host": [
+						"127.0.0.1"
+					],
+					"port": "5000",
+					"path": [
+						"confirmed-cases",
+						"lowest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/covid-suffering/highest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/covid-suffering/highest",
+					"protocol": "http",
+					"host": [
+						"127.0.0.1"
+					],
+					"port": "5000",
+					"path": [
+						"covid-suffering",
+						"highest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/covid-suffering/lowest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/covid-suffering/lowest",
+					"protocol": "http",
+					"host": [
+						"127.0.0.1"
+					],
+					"port": "5000",
+					"path": [
+						"covid-suffering",
+						"lowest"
 					]
 				}
 			},
@@ -114,82 +199,6 @@
 					"port": "5000",
 					"path": [
 						"total-cases"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "http://127.0.0.1:5000/highest-covid-efficiency",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://127.0.0.1:5000/highest-covid-efficiency",
-					"protocol": "http",
-					"host": [
-						"127.0.0.1"
-					],
-					"port": "5000",
-					"path": [
-						"highest-covid-efficiency"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "http://127.0.0.1:5000/lowest-covid-efficiency",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://127.0.0.1:5000/lowest-covid-efficiency",
-					"protocol": "http",
-					"host": [
-						"127.0.0.1"
-					],
-					"port": "5000",
-					"path": [
-						"lowest-covid-efficiency"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "http://127.0.0.1:5000/highest-active-cases",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://127.0.0.1:5000/highest-active-cases",
-					"protocol": "http",
-					"host": [
-						"127.0.0.1"
-					],
-					"port": "5000",
-					"path": [
-						"highest-active-cases"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "http://127.0.0.1:5000/lowest-active-cases",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://127.0.0.1:5000/lowest-active-cases",
-					"protocol": "http",
-					"host": [
-						"127.0.0.1"
-					],
-					"port": "5000",
-					"path": [
-						"lowest-active-cases"
 					]
 				}
 			},
